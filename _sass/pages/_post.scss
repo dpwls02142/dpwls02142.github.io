@@ -490,11 +490,11 @@ header {
   }
 }
 
-.content > p > img {
-  @include bp.lte(bp.get(md)) {
-    max-width: calc(100% + 1rem);
-  }
-}
+// .content > p > img {
+//   @include bp.lte(bp.get(md)) {
+//     max-width: calc(100% + 1rem);
+//   }
+// }
 
 h2,
 h3,
