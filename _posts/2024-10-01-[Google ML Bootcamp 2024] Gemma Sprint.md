@@ -4,7 +4,7 @@ title: "[Google ML Bootcamp 2024] Gemma Sprint"
 excerpt: ""
 categories: [Ai]
 tags:
-  - [GemmaSprint]
+  - [GemmaSprint] [2024]
 toc: true
 toc_sticky: true
 ---
