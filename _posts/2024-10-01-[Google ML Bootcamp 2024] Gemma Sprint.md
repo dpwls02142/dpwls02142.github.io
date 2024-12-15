@@ -1,10 +1,13 @@
 ---
 # Header
-title: "[Google ML Bootcamp 2024] Gemma Sprint"
-excerpt: ""
-categories: [Ai]
-tags:
-  - [GemmaSprint] [2024]
+layout: post
+title: "Google ML Bootcamp 2024: Gemma Sprint"
+date: "2024-10-01"
+categories: 
+  - Ai
+tags: 
+  - GemmaSprint
+  - "2024"
 toc: true
 toc_sticky: true
 ---
