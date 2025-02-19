@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: dpwls02142 # the main title
 
-# tagline: Hello # it will display as the subtitle
+tagline: 최대한 쉽게 설명하려고 노력합니다. <br> 틀린 내용이 있다면 알려주세요. <br> 감사합니다 •´◡`•
 
 description: >- # used by seo meta and the atom feed
   tech blog for dpwls
@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: dpwls02142
-  # email: example@domain.com # change to your email address
+  email: dpwls02142@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your Twitter homepage
