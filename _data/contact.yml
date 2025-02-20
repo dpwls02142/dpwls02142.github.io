@@ -5,4 +5,4 @@
 
 - type: email
   icon: 'fa-solid fa-envelope'
-  url: 'dpwls02142@gmail.com'
+  noblank: true  
