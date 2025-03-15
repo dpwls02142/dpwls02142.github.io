@@ -165,12 +165,14 @@ void A() {
 
 왜냐면 주소값이 낮다는건 커널과 가깝다는거고, 주소값이 높다는건 사용자 공간에 가깝다는거기 때문이다. << 운영체제에 따라 다를 수 있다.
 
-고로 파이썬에서 Collections 라이브러리의 permutations 함수를 불러와서 사용하면,
-Collections 라이브러리안에 있는 코드는 코드 메모리 영역에서 한 번만 로드가 된다.
+고로 파이썬에서 itertools 라이브러리의 permutations 함수를 불러와서 사용하면,
+itertools 라이브러리안에 있는 코드는 코드 메모리 영역에서 한 번만 로드가 된다.
 
 ```python
-from collections import permutations
+from itertools import permutations
 result = permutations([1, 2, 3])
+for i in result:
+    print(i)
 ```
 
 1. 이를 실행하면 Stack에 permutations 함수를 사용하는 프레임이 생성된다.
