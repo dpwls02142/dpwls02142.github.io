@@ -6,3 +6,4 @@ gem "jekyll", "~> 4.3"
 gem "jekyll-theme-chirpy"
 gem 'html-proofer'
 gem 'jekyll-assets'
+gem 'jekyll-sitemap'
