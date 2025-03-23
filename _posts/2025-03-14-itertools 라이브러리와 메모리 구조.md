@@ -4,7 +4,7 @@ layout: post
 title: "itertools 라이브러리와 메모리 구조 살펴보기 / with.기억장치"
 date: "2025-03-14"
 categories: 
-  - 운영체제
+  - OS
 tags: 
   - "2025"
   - "python"
