@@ -7,3 +7,5 @@ gem "jekyll-theme-chirpy"
 gem 'html-proofer'
 gem 'jekyll-assets'
 gem 'jekyll-sitemap'
+
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?

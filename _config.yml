@@ -95,7 +95,7 @@ theme_mode: light
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: "https://chirpy-img.netlify.app"
+# cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "https://avatars.githubusercontent.com/u/130109502?v=4"
@@ -214,6 +214,9 @@ exclude:
   - LICENSE
   - "*.config.js"
   - package*.json
+  - _site
+  - robots.txt
+  - assets/img/favicons/site.webmanifest
 
 jekyll-archives:
   enabled: [categories, tags]

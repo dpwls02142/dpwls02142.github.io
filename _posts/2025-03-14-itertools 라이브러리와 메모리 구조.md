@@ -8,6 +8,7 @@ categories:
 tags: 
   - "2025"
   - "python"
+image: "/assets/img/thumbnail/memory.png"
 toc: true
 toc_sticky: true
 ---
