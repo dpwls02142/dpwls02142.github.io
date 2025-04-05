@@ -74,6 +74,8 @@ function isMobileView() {
 }
 
 export function displaySearch() {
+  if (!btnSearchTrigger || !btnCancel || !input) return;
+  
   btnSearchTrigger.addEventListener('click', () => {
     MobileSearchBar.on();
     ResultSwitch.on();

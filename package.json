@@ -14,9 +14,9 @@
   },
   "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy/",
   "scripts": {
-    "build": "concurrently npm:build:*",
-    "build:css": "purgecss -c purgecss.config.js",
+    "build:css": "node build-css.js",
     "build:js": "rollup -c --bundleConfigAsCjs --environment BUILD:production",
+    "build": "concurrently npm:build:*",
     "watch:js": "rollup -c --bundleConfigAsCjs -w",
     "lint:scss": "stylelint _sass/**/*.scss",
     "lint:fix:scss": "npm run lint:scss -- --fix",

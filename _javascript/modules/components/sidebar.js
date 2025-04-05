@@ -1,27 +1,28 @@
-/**
- * Expand or close the sidebar in mobile screens.
- */
-
 const ATTR_DISPLAY = 'sidebar-display';
+const $sidebar = document.getElementById('sidebar');
+const $trigger = document.getElementById('sidebar-trigger');
+const $mask = document.getElementById('mask');
 
 class SidebarUtil {
-  static isExpanded = false;
+  static #isExpanded = false;
 
   static toggle() {
-    if (SidebarUtil.isExpanded === false) {
-      document.body.setAttribute(ATTR_DISPLAY, '');
-    } else {
-      document.body.removeAttribute(ATTR_DISPLAY);
+    this.#isExpanded = !this.#isExpanded;
+
+    document.body.toggleAttribute(ATTR_DISPLAY, this.#isExpanded);
+
+    if ($sidebar) {
+      $sidebar.classList.toggle('z-2', this.#isExpanded);
     }
 
-    SidebarUtil.isExpanded = !SidebarUtil.isExpanded;
+    if ($mask) {
+      $mask.classList.toggle('d-none', !this.#isExpanded);
+    }
   }
 }
 
-export function sidebarExpand() {
-  document
-    .getElementById('sidebar-trigger')
-    .addEventListener('click', SidebarUtil.toggle);
-
-  document.getElementById('mask').addEventListener('click', SidebarUtil.toggle);
+export function initSidebar() {
+  if ($trigger && $mask) {
+    $trigger.onclick = $mask.onclick = () => SidebarUtil.toggle();
+  }
 }
