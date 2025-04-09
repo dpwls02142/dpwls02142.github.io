@@ -74,7 +74,7 @@ SVG(Scalable Vector Graphics)란 약자 그대로 Vector 기반 파일 포맷을
 ### [WebP](https://developers.google.com/speed/webp?hl=ko)
 WebP는 Google이 개발한 압축 기술로, VP8 비디오 코덱에 기반한 알고리즘을 사용해 JPEG보다 25-34% 더 작은 파일 크기를 달성한다고 한다.
 
-<p align="center"><a href="https://developers.google.com/speed/webp/docs/webp_study?hl=ko"><img src= "/assets/img/posts/250409/4.png"></a></p>
+<p align="center"><a href="https://developers.google.com/speed/webp/docs/webp_study?hl=ko"><img src= "/assets/img/posts/250409/4.png" alt="webp"></a></p>
 <p align="center" style="color:#c3c4ca;">이미지를 누르면 표 원본 사이트로 이동된다.</p>
 
 그 유명한 [Lenna](https://en.wikipedia.org/wiki/Lenna) 이미지로 SSIM과 파일 크기의 비율을 측정했을 때 SSIM은 유지하면서도 파일 크기는 줄어든걸 볼 수 있다.
@@ -126,7 +126,7 @@ LCP란 Largest Contentful Paint의 약자로 사용자가 페이지로 처음 �
 
 그랬더니 결과는? 100점 달성 WA~
 
-<p align="center"><a href="https://pagespeed.web.dev/analysis/https-drag-make-11-front-vercel-app/oolqso1br7?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=ko&utm_source=lh-chrome-ext"><img src= "/assets/img/posts/250409/6.png"></a></p>
+<p align="center"><a href="https://pagespeed.web.dev/analysis/https-drag-make-11-front-vercel-app/oolqso1br7?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=ko&utm_source=lh-chrome-ext"><img src= "/assets/img/posts/250409/6.png" alt="lighthouse_score"></a></p>
 <p align="center" style="color:#c3c4ca;">이미지를 누르면 성능을 측정한 원본 페이지를 볼 수 있다.</p>
 
 ### 후기
