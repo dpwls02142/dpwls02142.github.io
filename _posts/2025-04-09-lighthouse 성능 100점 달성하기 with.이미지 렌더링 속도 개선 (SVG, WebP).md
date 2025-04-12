@@ -37,7 +37,7 @@ toc_sticky: true
 ### [SVG](https://www.adobe.com/kr/creativecloud/file-types/image/vector/svg-file.html)
 SVG(Scalable Vector Graphics)란 약자 그대로 Vector 기반 파일 포맷을 말한다. 이 말은 이미지에 들어가는 모든 요소(color, line, dot, ...)를 수학적으로 정의한다는거다.
 
-그럼 SVG로 간단하게 빨-> 파 그라데이션 사각형을 그려보자.
+그럼 SVG로 간단하게 파-> 빨 그라데이션 사각형을 그려보자.
 
 ```xml
 <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
