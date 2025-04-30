@@ -4,7 +4,7 @@ layout: post
 title: "TypeScript 기초"
 date: "2025-04-30"
 categories:
-  - FRONT
+  - Front
 tags: 
   - "2025"
   - "ts"
