@@ -47,8 +47,8 @@ toc_sticky: true
 3. figma 상에서 프레임이나 컴포넌트를 클릭 후 왼쪽 사진처럼 이슈를 링크 시키고 지라에 들어가보면 오른쪽 이미지처럼 지라상에서 피그마를 연동돼서 바로 볼 수 있음.
 <table>
     <tr>
-        <td><img src="../assets/img/posts/250522/1.jpg"></td>
-        <td><img src="../assets/img/posts/250522/2.jpg"></td>
+        <td><img src="../assets/img/posts/250522/1.jpg" alt="pic1"></td>
+        <td><img src="../assets/img/posts/250522/2.jpg" alt="pic2"></td>
     </tr>
 </table>
 
