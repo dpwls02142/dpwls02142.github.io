@@ -29,14 +29,17 @@ toc_sticky: true
 
 ### tailwind에 대한 깊생하기
 1. tailwind가 용량을 적게 먹는 이유
-	1. Tailwind는 **PurgeCSS** 기능을 내장하고 있어서, 실제로 사용하지 않는 CSS 클래스들은 자동으로 제거한다. 
-	2. 즉 빌드 시점에 HTML, JS 파일들을 스캔해서 실제 사용된 클래스만 최종 CSS에 포함시키기 때문에 용량이 대폭 줄어드는거다.
+	1. Tailwind는 3.0 버전부터 JIT(Just-In-Time) 컴파일러를 사용한다.
+		- Just In Time이란 말 그대로 사용한 스타일만 스타일을 생성해서 사용한다는거다. 
+		- 옛날에는 JIT를 사용하고 싶으면 따로 mode에 명시해서 적어줘야 됐다. [참고 자료](https://github.com/tailwindlabs/tailwindcss/discussions/6256#discussioncomment-1747715)
+	2. 옛날 (버전 2.x) 때는 purgeCSS를 활용해서 스타일을 제거했다.
+		- purgeCSS는 번들(실제 프로젝트) 때 사용하지 않는 css는 제거해서 최종 css를 생성한다는 의미다.
+		- purge란 한글로 "숙청" 이라는 의미를 갖고있다. 누군가가 잘못하면 숙청하라는 말을 하지 않는가 ㅋㅋ
 2. tailwind의 로딩 순서
 	1. postcss.config.js에서 Tailwind 플러그인 설정
 	2. tailwind.config.js에서 설정 및 커스텀 스타일 정의
 	3. globals.css에서 @tailwind 지시어로 베이스/컴포넌트/유틸리티 스타일 불러오기
-	4. PostCSS가 Tailwind CSS를 처리하여 실제 CSS 생성
-	5. 빌드 시 사용하지 않는 스타일 제거 (purge)
+	4. postcss가 Tailwind CSS를 처리하여 실제 CSS 생성
 3. 왜 oklch 단위로 컬러를 설정했는가
 	- oklch란? 사람의 시각 인지에 더 가까운 색상 공간. 
 	- (Lightness, chroma, Hue)의 값을 갖고 있음.
